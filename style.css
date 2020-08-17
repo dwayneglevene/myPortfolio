@@ -1,159 +1,26 @@
 
-
-body{background-image: url("images/mkp2.png");}
-
-
-
-
-#tech{ 
-		
-		
-		text-align: center;
-	}
-
-.D{
-	border-radius: 50%;
-	width: 300px;
-	height: 300px;
-}		
-
-
-
-.into{
-	border: dashed red 2px;
+body{
+    background-color:tan;
+}
+.first{
+    height:500px;
 }
 
-
-
-}
-
-/*.Pics{
-	text-align: center;
-
-}*/
-
-#red{color: red;
+.pic{
+    height:100%;
+    width:100%;
 }
 
 
 h1{
-	color:#00FF7F ;
-	text-align: center;
+    margin:100px;
 }
 
-/*#wd{
-	padding-bottom: 50px;
-}*/
+.bottom{
 
-.ABpad{
-	
-	background-color: grey;
-	background-color: rgba(0,0,0,0.5);
-	padding-left: 45px;
-	padding-right: 45px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	color: white;
+ height:200px;
 }
 
-.ABpad >h1 {
-	color: #00FF7F;
-}
-
-.margin{
-	margin-top: 50px;
-}
-#LI{
-	height: 75px;
-}
-
-#Calign{
-	padding-top: 20px;
-	text-align: center;
-	background-color: grey;
-	background-color: rgba(0,0,0,0.5);
-	color: white;
-	padding-bottom: 20px;
-}
-
-/*.jumbotron {
-    background-color:red  !important;
-    opacity: 0.5 
-}
-*/
-#content{
-	background-color: grey;
-	background-color: rgba(0,0,0,0.5);
-	margin-right: 30%;
-	margin-left: 30%;
-	padding-bottom: 5%;
-	margin-top: 5%;
-	color: white;
-
-}
-#content > h1{
-	color: #00FF7F;
-}
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 700em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 65em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
-#play{
-	height: 100px;
-	width: 100px;
-}
-
-.card-img-top{
-	height: 350px;
-}
-.card-body{
-	background-color: #00FF7F;
-}
-
-.beats{text-align: center;
-	border: solid black 2px;
-	margin-left: 25%;
-	margin-right: 25%;
-	background-color: #00FF7F;
-	background-color: rgba(0,0,0,0.5);
-	margin-top: 20px;
-}
-
-.beats > h2{
-	color:#00FF7F ;
-	text-align: center;
-}
-
-.imageCap1{
-	margin-top: 20px; 
-}
-.modal{
-	text-align: center;
-}
-#contact{
-	color: #00FF7F;
+.pad{
+    padding-top:50px;
 }
